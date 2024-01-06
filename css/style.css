@@ -74,6 +74,11 @@ ul li a {
 .banner img {
   width: 500px;
 }
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section */
 .about {
   border-radius: 10px;
@@ -94,3 +99,15 @@ ul li a {
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
+.info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info {
+  text-align: center;
+}
+
+#about-p {
+  padding: 0 120px;
+}
+
