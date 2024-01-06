@@ -125,3 +125,49 @@ main section {
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* resume start */
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.education-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.engineering {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.hardbard {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.button {
+  text-align: center;
+  margin-top: 50px;
+}
+footer {
+  padding: 130px 230px;
+  background-color: #fff8f3;
+}
+.foot {
+  display: flex;
+}
+.footertitle {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footerdes {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
