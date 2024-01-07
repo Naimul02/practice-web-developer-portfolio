@@ -153,15 +153,16 @@ main section {
   margin-top: 50px;
 }
 footer {
-  padding: 130px 230px;
+  padding: 130px 200px;
   background-color: #fff8f3;
 }
 .foot {
   display: flex;
+  gap: 100px;
+  width: 100%;
 }
 .footertitle {
   color: var(--Dark-01, #181818);
-  text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
@@ -170,4 +171,27 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+.footerColumn {
+  width: 50%;
+}
+.footerColumn form {
+  width: 100%;
+}
+.blockElement {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  padding: 18px 30px;
+  border: none;
+  margin-bottom: 24px;
+}
+.anchor-gap a {
+  margin-right: 24px;
+}
+.footer-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
 }
